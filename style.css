@@ -1,61 +1,79 @@
-body{
+body {
     margin: 0px auto;
-    width: 100%; 
+    width: 100%;
     font-family: 'Alef', sans-serif;
 }
-nav ul li{
+
+nav ul li {
     list-style-type: none;
     float: left;
     padding-right: 2.5em;
     color: #ffffff;
 }
-nav ul{
+
+nav ul {
     float: right;
 }
-nav{
+
+nav {
     width: 100% auto;
     height: 50px;
     background-color: #df5656;
     position: fixed;
     width: 100%;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #ffffff;
 }
-section{
+
+section {
     background-color: #cef3f7;
 }
-.home{
+
+.home {
     background-color: #f0bae9;
     text-align: center;
     font-size: 30px;
-    color:#ffffff;
+    color: #ffffff;
     display: table;
     height: 100vh;
     width: 100%;
 }
-.inner{
+
+.inner {
     display: table-cell;
     vertical-align: middle;
 }
-.home .inner img{
-    padding-top: 10px;;
+
+.home .inner img {
+    padding-top: 10px;
+    ;
     border-radius: 100%;
-    width:250px;
+    width: 250px;
     height: auto;
 }
-.home .inner h1{
+
+.home .inner h1 {
     font-family: 'Alef', sans-serif;
 }
-.about, .skills , .hobbies , .contact{
+
+.about,
+.skills,
+.hobbies,
+.contact {
     display: table;
     height: 100vh;
-    width:100%;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.about .inner, .skills .inner, .hobbies .inner, .contact .inner{
+
+.about .inner,
+.skills .inner,
+.hobbies .inner,
+.contact .inner {
     display: table-cell;
     vertical-align: middle;
     width: 70%;
@@ -63,27 +81,43 @@ section{
     padding-top: 75px;
     padding-left: 50px;
 }
-.about .inner img , .skills .inner img, .hobbies .inner img, .contact .inner img{
-    padding-top: 10px;;
+
+.about .inner img,
+.skills .inner img,
+.hobbies .inner img,
+.contact .inner img {
+    padding-top: 10px;
+    ;
     border-radius: 5%;
-    width:100px;
+    width: 100px;
     height: auto;
 }
-.about .inner h1, .skills .inner h1, .hobbies .inner h1, .contact .inner h1{
-    font-size: 42px;;
+
+.about .inner h1,
+.skills .inner h1,
+.hobbies .inner h1,
+.contact .inner h1 {
+    font-size: 42px;
+    ;
 }
-.about .inner p, .skills .inner ul li, .hobbies .inner ul li, .education .inner p{
+
+.about .inner p,
+.skills .inner ul li,
+.hobbies .inner ul li,
+.education .inner p {
     font-size: 28px;
 }
-.education{
+
+.education {
     background-color: #f7f593;
     display: table;
     height: 100vh;
-    width:100%;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.education .inner{
+
+.education .inner {
     display: table-cell;
     vertical-align: middle;
     width: 50%;
@@ -91,34 +125,44 @@ section{
     padding-top: 75px;
     padding-left: 50px;
 }
-.education .inner img{
-    padding-top: 10px;;
+
+.education .inner img {
+    padding-top: 10px;
     border-radius: 5%;
-    width:125px;
+    width: 125px;
     height: auto;
 }
-.education .inner h1{
-    font-size: 42px;;
+
+.education .inner h1 {
+    font-size: 42px;
+    ;
 }
-.education .inner h2{
-    font-size: 38px;;
+
+.education .inner h2 {
+    font-size: 38px;
+    ;
 }
-.contact .inner p{
+
+.contact .inner p {
     font-size: 28px;
 }
-.skills{
+
+.skills {
     background-color: rgb(247, 210, 155);
 }
-.hobbies{
+
+.hobbies {
     background-color: rgb(155, 247, 193);
 }
-.contact{
+
+.contact {
     background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
 }
 
 /*responsive designing*/
-@media(min-width:350px) and (max-width:767px){
-    .home.inner img{
+@media(min-width:350px) and (max-width:767px) {
+    .home.inner img {
         padding-top: 50px;
     }
 }
